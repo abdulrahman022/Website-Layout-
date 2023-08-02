@@ -1,0 +1,34 @@
+body{font-family: Arial, Helvetica, sans-serif; background-color: rgb(245, 245, 245);}
+
+#T1{
+    border: 2px solid black;
+    width: 40%;
+    border-spacing: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+#T1 td{border: 2px solid black; height: 80px; background-color: #0099ff; }
+#T1 td:nth-child(1){width: 130px; background-color: #f0a44d;}
+#T1 tr:last-child td{background-color: blanchedalmond;}
+
+#T2{
+    border: 2px solid black; width: 40%; margin-left: auto; margin-right: auto;
+    border-spacing:10px ; background-color: chartreuse;}
+#T2 td{border: 2px solid black; text-align: center; font-weight: bold; padding: 10px;}
+
+#T2 tr:first-child{height: 60px; background-color: green;}
+#T2 tr:nth-child(2){height: 30px; background-color: #0099ff;}
+#T2 tr:nth-child(3){height: 350px;}
+#T2 tr:nth-child(3) td:first-child{background-color: blue; vertical-align: top;}
+#T2 tr:nth-child(3) td:nth-child(2){background-color: rgb(172, 32, 165); vertical-align: top;}
+#T2 tr:nth-child(4){height: 60px; background-color: orange; vertical-align: top;}
+
+.footer{margin-top: 60px; background-color: white; padding: 10px;}
+#designby,#roll{text-align: center; font-size: 14pt;}
+/* Hovers */
+#T1 td:hover{cursor: pointer;}
+#T2 td:hover{cursor: pointer;}
+#T1 td:hover{background-color: #2487c9;}
+#T1 td:nth-child(1):hover{background-color: #97652b;}
+#T1 tr:last-child td:hover{background-color: rgb(146, 120, 78);}
